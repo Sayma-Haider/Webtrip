@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/crawler.png" type="image/png">
+        <title>Webtrip</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <style>
+            html,body,img{margin:0;padding:100;border:50;font-size:100%;font:inherit;vertical-align:baseline}
+html,body{min-height:100%}
+.leftcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.leftcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; solid transparent}
+.leftcolumn ul{list-style:none;padding:0;margin:0}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  padding-top: 5px;
+  padding-bottom: 0;
+  background-color:transparent;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+  margin: 10px;
+  height: 100%;
+  font-size: 20px;
+  width: 15%;
+  
+}
+
+  .main {
+
+  padding-top: 5px;
+  width: 80%;
+  font-size: 20px;
+  float: right;
+  padding: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 1px;
+}
+
+
+</style>
+<style>
+    h2{
+        color :green;
+    }
+</style>
+
+ <style>       
+.rightcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.rightcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; solid transparent}
+.rightcolumn ul{list-style:none;padding:0;margin:0}       
+</style>
+<style>
+    body{margin:0;}
+ul{
+    list-style-type:none;
+  margin:0;
+  padding-top:30px;
+  padding-left:0px;
+  width:200px;
+  background-color:transparent;
+  height:100%;
+  overflow:auto;
+}
+li a{
+display:block;
+color:#000;
+padding:8px 16px;
+text-decoration : none;
+
+}
+
+li a.active{
+background-color:#4CAF50;
+color:white;
+}
+
+li a:hover:not(.active){
+background-color:#555;
+color:white;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<p style="text-align: center;"><img src="img\phpimg\php.png" alt="php"></p>
+<p style="text-align: center; font-size:25px;" >PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.</p>
+
+<div class="menu">
+<div class="leftcolumn" id="myNav">		
+<div class="segment"><span>PHP</span> BASIC</div>
+<div class="attributes">
+
+    <ul>
+    <li><a href="#int">PHP Introduction</a></li>
+    <li><a href="#getstart">PHP Getting Started</a></li>
+    <li><a href="#syn">PHP Syntax</a></li>
+    <li><a href="#var">PHP Variables</a></li>
+    <li><a href="#cons">PHP Constants</a></li>
+    <li> <a href="#pri">PHP Echo and Print</a></li>
+    <li> <a href="#typ">PHP Data Types</a></li>
+    <li> <a href="#str">PHP Strings</a></li>
+    <li>  <a href="#op">PHP Operators</a></li>
+    <li>  <a href="#ifel">PHP If..Else</a></li>
+    <li> <a href="#swit">PHP Switch...case</a></li>
+    <li>  <a href="#arr">PHP Arrays</a></li>
+    <li> <a href="#sarr">PHP Sorting Arrays</a></li>
+    <li> <a href="#loop">PHP Loops</a></li>
+    <li> <a href="#func">PHP Functions</a></li>
+    <li> <a href="#mathop">PHP Math Operators</a></li>
+    <li> <a href="#gepo">PHP GET and POST</a></li>
+</ul>
+
+<br> <br>
+
+</div>
+
+<div class="segment2"><span><strong>PHP</strong></span><strong> Advanced</strong></div>
+<div class="attributes2">
+    <ul>
+    <li><a href="phpadvanced.html#d&t">PHP Date and Time</a></li>
+    <li><a href="phpadvanced.html#infile">PHP Include Files</a></li>
+    <li><a href="phpadvanced.html#filesys">PHP File System</a></li>
+    <li><a href="phpadvanced.html#pardir">PHP Parse Directories</a></li>
+    <li><a href="phpadvanced.html#fileup">PHP File Upload</a></li>
+    <li> <a href="phpadvanced.html#filedown">PHP File Download</a></li>
+    <li> <a href="phpadvanced.html#cook">PHP Cookies</a></li>
+    <li> <a href="phpadvanced.html#sess">PHP Sessions</a></li>
+    <li>  <a href="phpadvanced.html#email">PHP Send Email</a></li>
+    <li>  <a href="phpadvanced.html#formhand">PHP Form Handling</a></li>
+    <li> <a href="phpadvanced.html#formvald">PHP Form Validation</a></li>
+    <li> <a href="phpadvanced.html#errhand">PHP Error Handling</a></li>
+    <li> <a href="phpadvanced.html#clss&obj">PHP Classes and Objects</a></li>
+    <li> <a href="phpadvanced.html#jsonpar">PHP JSON Parsing</a></li>
+    <li> <a href="phpadvanced.html#regex">PHP Regular Expressions</a></li>
+
+
+</ul>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="main">
+    
+<h2 id="int">PHP Introduction</h2>
+<p>
+  PHP stands for Hypertext Preprocessor. PHP is a very popular and widely-used open source server-side scripting language to write dynamically generated web pages. PHP was originally created by Rasmus Lerdorf in 1994. It was initially known as Personal Home Page.
+
+PHP scripts are executed on the server and the result is sent to the web browser as plain HTML. PHP can be integrated with the number of popular databases, including MySQL, PostgreSQL, Oracle, Microsoft SQL Server, Sybase, and so on. The current major version of PHP is 7. All of the code in this tutorial has been tested and validated against the most recent release of PHP 7.
+
+PHP is very powerful language yet easy to learn and use. So bookmark this website and continued on.
+</p>
+
+<p><strong>What You Can Do with PHP</strong></p>
+
+<p>There are lot more things you can do with PHP.</p>
+
+<ol>
+    <li>You can generate pages and files dynamically.</li>
+    <li>You can create, open, read, write and close files on the server.</li>
+    <li>You can collect data from a web form such as user information, email, phone no, etc.</li>
+    <li>You can send emails to the users of your website.</li>
+    <li>You can send and receive cookies to track the visitor of your website.</li>
+    <li>You can store, delete, and modify information in your database.</li>
+    <li>You can restrict unauthorized access to your website.</li>
+    <li>You can encrypt data for safe transmission over internet.</li>
+</ol>
+
+<p>
+The list does not end here, there are many other interesting things that you can do with PHP. You will learn about all of them in detail in upcoming chapters.
+</p>
+
+<p><strong>Advantages of PHP over Other Languages</strong></p>
+
+<p>If you're familiar with other server-side languages like ASP.NET or Java, you might be wondering what makes PHP so special. There are several advantages why one should choose PHP.</p>
+
+<ol>
+
+    <li>Easy to learn: PHP is easy to learn and use. For beginner programmers who just started out in web development, PHP is often considered as the preferable choice of language to learn.</li>
+    <li>Open source: PHP is an open-source project. It is developed and maintained by a worldwide community of developers who make its source code freely available to download and use.</li>
+    <li>Portability: PHP runs on various platforms such as Microsoft Windows, Linux, Mac OS, etc. and it is compatible with almost all servers used today such Apache, IIS, etc.</li>
+    <li>Fast Performance: Scripts written in PHP usually execute or runs faster than those written in other scripting languages like ASP, Ruby, Python, Java, etc.</li>
+    <li>Vast Community: Since PHP is supported by the worldwide community, finding help or documentation related to PHP online is extremely easy.</li>
+
+</ol>
+
+
+<div>
+<h2 id="getstart">PHP Get Started</h2>
+<p>An PHP file is simply a text file saved with an .php extension.</p>
+<h3>Getting Started PHP</h3>
+
+<p>Here, you will learn how easy it is to create dynamic web pages using PHP. Before begin, be sure to have a code editor and some working knowledge of HTML and CSS.</p>
+
+<p>If you're just starting out in web development,<a href="projrcthtml.html">start learning from here »</a></p>
+
+<p>Well, let's get straight into it.</p>
+
+<h3>Setting Up a Local Web Server</h3>
+
+<p>PHP script execute on a web server running PHP. So before you start writing any PHP program you need the following program installed on your computer.</p>
+
+<ol>
+  <li>The Apache Web server</li>
+  <li>The PHP engine</li>
+  <li>The MySQL database server</li>
+</ol>
+
+<p>
+  You can either install them individually or choose a pre-configured package for your operating system like Linux and Windows. Popular pre-configured package are XAMPP and WampServer.
+
+WampServer is a Windows web development environment. It allows you to create web applications with Apache2, PHP and a MySQL database. It will also provide the MySQL administrative tool PhpMyAdmin to easily manage your databases using a web browser.
+
+The official website for downloading and installation instructions for the WampServer: 
+<a href="http://www.wampserver.com/en/">http://www.wampserver.com/en/</a>
+
+</p>
+
+<h3>Creating Your First PHP Script</h3>
+
+<p>Now that you have successfully installed WampServer on your computer. In this section we will create a very simple PHP script that displays the text "Hello, world!" in the browser window.
+
+Ok, click on the WampServer icon somewhere on your Windows task bar and select the "www directory". Alternatively, you can access the "www" directory through navigating the C:\wamp\www. Create a subdirectory in "www" directory let's say "project".
+
+Now open up your favorite code editor and create a new PHP file then type the following code:</p>
+
+<img src="img\phpimg\phpexample1.jpg" alt="example1">
+
+<p>Now save this file as "hello.php" in your project folder (located at C:\wamp\www\project), and view the result in your browser through visiting this URL: http://localhost/project/hello.php.<br><br>
+
+Alternatively, you can access the "hello.php" file through selecting the localhost option and then select the project folder from the WampSever menu on the taskbar.<br><br>
+
+PHP can be embedded within a normal HTML web page. That means inside your HTML document you can write the PHP statements, as demonstrated in the follwoing example:<br></p>
+
+<img src="img\phpimg\phpexample2.jpg" alt="example2">
+
+<br>
+
+<p>You will learn what each of these statements means in upcoming chapters.</p>
+ 
+</div>
+
+
+
+<div>
+<h2 id="syn">PHP Syntax</h2>
+<h3>Standard PHP Syntax</h3>
+<p>A PHP script starts with the <?php and ends with the ?> tag.<br><br>
+
+The PHP delimiter <?php and ?> in the following example simply tells the PHP engine to treat the enclosed code block as PHP code, rather than simple HTML.<br>
+</p>
+<img src="img\phpimg\phpexample3.jpg" alt="example3">
+
+<p>Every PHP statement end with a semicolon (;) — this tells the PHP engine that the end of the current statement has been reached.</p><br>
+
+<h3>Embedding PHP within HTML</h3>
+
+<p>PHP files are plain text files with .php extension. Inside a PHP file you can write HTML like you do in regular HTML pages as well as embed PHP codes for server side execution.</p>
+
+<img src="img\phpimg\phpexample4.jpg" alt="example4"><br>
+
+<p>The above example shows how you can embed PHP codes within HTML to create well-formed dynamic web pages. If you view the source code of the resulting web page in your browser, the only difference you will see is the PHP code <?php echo "Hello, world!"; ?> has been replaced with the output "Hello, world!".<br><br>
+
+What happend here is? when you run this code the PHP engine exacuted the instructions between the <?php … ?> tags and leave rest of the thing as it is. At the end the web server send the final output back to your browser which is completely in HTML.</p><br>
+
+<h3>PHP Comments</h3>
+<p>A comment is simply text that is ignored by the PHP engine. The purpose of comments is to make the code more readable. It may help other developer (or you in the future when you edit the source code) to understand what you were trying to do with the PHP.<br><br>
+
+PHP support single-line as well as multi-line comments. To write a single-line comment either start the line with either two slashes (//) or a hash symbol (#). For example:</p>
+
+<img src="img\phpimg\phpexample5.jpg" alt="example5"><br>
+
+<p>However to write multi-line comments, start the comment with a slash followed by an asterisk (/*) and end the comment with an asterisk followed by a slash (*/), like this:</p>
+
+<img src="img\phpimg\phpexample6.jpg" alt="example6"><br>
+
+<h3>Case Sensitivity in PHP</h3>
+
+<p>Variable names in PHP are case-sensitive. As a result the variables $color, $Color and $COLOR are treated as three different variables.</p>
+
+<img src="img\phpimg\phpexample7.jpg" alt="example7"><br>
+
+<p>If you try to run the above example code it will only display the value of the variable $color and produce the "Undefined variable" warning for the variable $Color and $COLOR.<br><br>
+
+However the keywords, function and classes names are case-insensitive. As a result calling the gettype() or GETTYPE() produce the same result.</p>
+
+<img src="img\phpimg\phpexample8.jpg" alt="example8"><br>
+
+<p>If you try to run the above example code both the functions gettype() and GETTYPE() gives the same output, which is: string.</p>
+
+
+<h2 id="var">PHP Variables</h2>
+<h3>What is Variable in PHP</h3>
+
+<p>Variables are used to store data, like string of text, numbers, etc. Variable values can change over the course of a script. Here're some important things to know about variables:</p>
+
+<ol>
+  <li>In PHP, a variable does not need to be declared before adding a value to it. PHP automatically converts the variable to the correct data type, depending on its value.</li>
+  <li>After declaring a variable it can be reused throughout the code.</li>
+  <li>The assignment operator (=) used to assign value to a variable.</li>
+</ol>
+
+<p>In PHP variable can be declared as: $var_name = value;</p>
+
+<img src="img\phpimg\phpexample9.jpg" alt="example9"><br>
+
+<p>In the above example we have created two variables where first one has assigned with a string value and the second has assigned with a number. Later we've displayed the variables values in the browser using the echo statement. The PHP echo statement is often used to output data to the browser. We will learn more about this in upcoming chapter.</p><br><br>
+
+<h3>Naming Conventions for PHP Variables</h3>
+<p>These are the following rules for naming a PHP variable:</p>
+<ol>
+  <li>All variables in PHP start with a $ sign, followed by the name of the variable.</li>
+  <li>A variable name must start with a letter or the underscore character _.</li>
+  <li>A variable name cannot start with a number.</li>
+  <li>A variable name in PHP can only contain alpha-numeric characters and    underscores (A-z, 0-9, and _).</li>
+  <li>A variable name cannot contain spaces.</li>
+</ol>
+
+
+<h2 id="cons">PHP Constants</h2>
+<h3>What is Constant in PHP</h3>
+<p>A constant is a name or an identifier for a fixed value. Constant are like variables, except that once they are defined, they cannot be undefined or changed (except magic constants).<br><br>
+
+Constants are very useful for storing data that doesn't change while the script is running. Common examples of such data include configuration settings such as database username and password, website's base URL, company name, etc.<br><br>
+
+Constants are defined using PHP's define() function, which accepts two arguments: the name of the constant, and its value. Once defined the constant value can be accessed at any time just by referring to its name. Here is a simple example:</p>
+
+<img src="img\phpimg\phpexample10.jpg" alt="example10">
+
+<p>The output of the above code will be:<br>
+Thank you for visiting - https://www.tutorialrepublic.com/<br>
+
+The PHP echo statement is often used to display or output data to the web browser. We will learn more about this statement in the next chapter.</p>
+
+<h2 id="pri">PHP Echo and Print</h2>
+<h3>The PHP echo Statement</h3>
+
+<p>The echo statement can output one or more strings. In general terms, the echo statement can display anything that can be displayed to the browser, such as string, numbers, variables values, the results of expressions etc.<br><br>
+
+Since echo is a language construct not actually a function (like if statement), you can use it without parentheses e.g. echo or echo(). However, if you want to pass more than one parameter to echo, the parameters must not be enclosed within parentheses.</p><br><br>
+
+<h3>Display Strings of Text</h3>
+<p>The following example will show you how to display a string of text with the echo statement:</p>
+
+<img src="img\phpimg\phpexample11.jpg" alt="example11">
+
+<p>The output of the above PHP code will look something like this:<br><br>
+Hello World! </p>
+
+<h3>Display HTML Code</h3>
+<p>The following example will show you how to display HTML code using the echo statement:</p><br><br>
+
+<img src="img\phpimg\phpexample12.jpg" alt="example12">
+
+<p>The output of the above PHP code will look something like this:<br><br>
+This is a simple heading.<br>
+</p>
+<p style="color:red">This is heading with style.<br></p>
+
+<h3>Display Variables</h3>
+<p>The following example will show you how to display variable using the echo statement:</p>
+<img src="img\phpimg\phpexample13.jpg" alt="example13">
+
+<p>The output of the above PHP code will look something like this:<br><br>
+Hello World!<br>
+123456789<br>
+Red<br> </p><br>
+
+<h3>The PHP print Statement</h3>
+<p>You can also use the print statement (an alternative to echo) to display output to the browser. Like echo the print is also a language construct not a real function. So you can also use it without parentheses like: print or print().<br><br>
+
+Both echo and print statement works exactly the same way except that the print statement can only output one string, and always returns 1. That's why the echo statement considered marginally faster than the print statement since it doesn't return any value.</p><br>
+
+<h3>Display Strings of Text</h3>
+
+<p>The following example will show you how to display a string of text with the print statement:</p>
+
+<img src="img\phpimg\phpexample14.jpg" alt="example14">
+
+<p>The output of the above PHP code will look something like this:<br><br>
+Hello World! </p>
+
+<h3>Display HTML Code</h3>
+<p>The following example will show you how to display HTML code using the print statement:</p>
+<img src="img\phpimg\phpexample15.jpg" alt="example15">
+<p>The output of the above PHP code will look something like this:<br><br>
+This is a simple heading.<br>
+</p>
+<p style="color:red">This is heading with style.</p>
+
+<h3>Display Variables</h3>
+<p>The following example will show you how to display variable using the print statement:</p>
+
+<img src="img\phpimg\phpexample16.jpg" alt="example16">
+
+<p>The output of the above PHP code will look something like this:<br><br>
+Hello World!<br>
+123456789<br>
+Red<br> </p><br>
+
+
+<h2 id="typ">PHP Data Types</h2>
+<p>In this tutorial you will learn about the data types available in PHP.</p>
+
+<h3>Data Types in PHP</h3>
+
+<p>The values assigned to a PHP variable may be of different data types including simple string and numeric types to more complex data types like arrays and objects.<br><br>
+
+PHP supports total eight primitive data types: Integer, Floating point number or Float, String, Booleans, Array, Object, resource and NULL. These data types are used to construct variables. Now let's discuss each one of them in detail.</p><br>
+
+<h3>PHP Integers</h3>
+<p>Integers are whole numbers, without a decimal point (..., -2, -1, 0, 1, 2, ...). Integers can be specified in decimal (base 10), hexadecimal (base 16 - prefixed with 0x) or octal (base 8 - prefixed with 0) notation, optionally preceded by a sign (- or +).</p>
+
+<img src="img\phpimg\phpexample17.jpg" alt="example17">
+
+<h3>PHP Strings</h3>
+<p>Strings are sequences of characters, where every character is the same as a byte.<br><br>
+
+A string can hold letters, numbers, and special characters and it can be as large as up to 2GB (2147483647 bytes maximum). The simplest way to specify a string is to enclose it in single quotes (e.g. 'Hello world!'), however you can also use double quotes ("Hello world!").</p>
+
+<img src="img\phpimg\phpexample18.jpg" alt="example18">
+
+<h3>PHP Floating Point Numbers or Doubles</h3>
+<p>Floating point numbers (also known as "floats", "doubles", or "real numbers") are decimal or fractional numbers, like demonstrated in the example below.</p>
+<img src="img\phpimg\phpexample19.jpg" alt="example19">
+
+<h3>PHP Booleans</h3>
+<p>Booleans are like a switch it has only two possible values either 1 (true) or 0 (false).</p>
+<img src="phpexample20.jpg" alt="example20">
+
+<h3>PHP NULL</h3>
+<p>The special NULL value is used to represent empty variables in PHP. A variable of type NULL is a variable without any data. NULL is the only possible value of type null.</p>
+<img src="img\phpimg\phpexample21.jpg" alt="example21">
+
+<h3>PHP Resources</h3>
+<p>A resource is a special variable, holding a reference to an external resource.<br><br>
+
+Resource variables typically hold special handlers to opened files and database connections.</p>
+<img src="img\phpimg\phpexample22.jpg" alt="example22">
+
+
+
+<h2 id="str">PHP String</h2>
+
+<h3>What is String in PHP</h3>
+<p>A string is a sequence of letters, numbers, special characters and arithmetic values or combination of all. The simplest way to create a string is to enclose the string literal (i.e. string characters) in single quotation marks ('), like this:</p>
+
+<img src="img\phpimg\phpexample23.jpg" alt="example23"><br>
+
+<p>You can also use double quotation marks ("). However, single and double quotation marks work in different ways. Strings enclosed in single-quotes are treated almost literally, whereas the strings delimited by the double quotes replaces variables with the string representations of their values as well as specially interpreting certain escape sequences.</p>
+
+<p>The escape-sequence replacements are:</p>
+
+<ol>
+  <li>\n is replaced by the newline character</li>
+    <li>\r is replaced by the carriage-return character</li>
+    <li>\t is replaced by the tab character</li>
+    <li>\$ is replaced by the dollar sign itself ($)</li>
+    <li>\" is replaced by a single double-quote (")</li>
+    <li>\\ is replaced by a single backslash (\)
+</li>
+
+</ol>
+
+<p>Here's an example to clarify the differences between single and double quoted strings:</p>
+
+<img src="img\phpimg\phpexample24.jpg" alt="example24"><br>
+
+<h3>Manipulating PHP Strings</h3>
+
+<p>PHP provides many built-in functions for manipulating strings like calculating the length of a string, find substrings or characters, replacing part of a string with different characters, take a string apart, and many others. Here are the examples of some of these functions.</p><br>
+
+<h3>Calculating the Length of a String</h3>
+<p>The strlen() function is used to calculate the number of characters inside a string. It also includes the blank spaces inside the string.</p>
+
+<img src="img\phpimg\phpexample25.jpg" alt="example25"> <br>
+
+<h3>Counting Number of Words in a String</h3>
+
+<p>The str_word_count() function counts the number of words in a string.</p>
+
+<img src="img\phpimg\phpexample26.jpg" alt="example26"> <br>
+
+<h3>Counting Number of Words in a String</h3>
+<p>The str_word_count() function counts the number of words in a string.</p>
+<img src="img\phpimg\phpexample27.jpg" alt=""><br>
+
+<h3>Replacing Text within Strings</h3>
+<p>The str_replace() replaces all occurrences of the search text within the target string.</p>
+<img src="img\phpimg\phpexample28.jpg" alt="">
+
+<p>The output of the above code will be:<br><br>
+If the truth do not fit the theory, change the truth. </p><br>
+
+<p>You can optionally pass the fourth argument to the str_replace() function to know how many times the string replacements was performed, like this.</p>
+
+<img src="img\phpimg\phpexample29.jpg" alt="">
+
+<h2 id="op">PHP Operators</h2>
+
+<h3>What is Operators in PHP</h3>
+<p>Operators are symbols that tell the PHP processor to perform certain actions. For example, the addition (+) symbol is an operator that tells PHP to add two variables or values, while the greater-than (>) symbol is an operator that tells PHP to compare two values.<br><br>
+
+The following lists describe the different operators used in PHP.</p><br>
+
+<h3>PHP Arithmetic Operators</h3>
+<p>The arithmetic operators are used to perform common arithmetical operations, such as addition, subtraction, multiplication etc. Here's a complete list of PHP's arithmetic operators:</p>
+<img src="img\phpimg\phpexample30.jpg" alt="">
+
+<p>The following example will show you these arithmetic operators in action:</p>
+<img src="img\phpimg\phpexample31.jpg" alt="">
+
+
+
+</div>
+
+
+
+
+
+<h2 id="ifel">PHP If...Else</h2>
+
+<h3>PHP Conditional Statements</h3>
+<p>Like most programming languages, PHP also allows you to write code that perform different actions based on the results of a logical or comparative test conditions at run time. This means, you can create test conditions in the form of expressions that evaluates to either true or false and based on these results you can perform certain actions.<br><br>
+
+There are several statements in PHP that you can use to make decisions:</p><br>
+
+<ol>
+  <li>The if statement</li>
+  <li>The if...else statement</li>
+  <li>The if...elseif....else statement</li>
+  <li>The switch...case statement</li>
+</ol>
+
+<h3>The if Statement</h3>
+<p>The if statement is used to execute a block of code only if the specified condition evaluates to true. This is the simplest PHP's conditional statements and can be written like:</p>
+<img src="img\phpimg\phpexample32.jpg" alt="">
+
+<p>The following example will output "Have a nice weekend!" if the current day is Friday:</p>
+<img src="img\phpimg\phpexample33.jpg" alt="">
+
+
+
+<h2 id="swit">PHP Switch...Case</h2>
+
+<h3>PHP If…Else Vs Switch…Case</h3>
+<p>The switch-case statement is an alternative to the if-elseif-else statement, which does almost the same thing. The switch-case statement tests a variable against a series of values until it finds a match, and then executes the block of code corresponding to that match.</p><br>
+
+<img src="img\phpimg\phpexample34.jpg" alt="">
+
+<p>Consider the following example, which display a different message for each day.</p>
+<img src="img\phpimg\phpexample35.jpg" alt="">
+
+<p>The switch-case statement differs from the if-elseif-else statement in one important way. The switch statement executes line by line (i.e. statement by statement) and once PHP finds a case statement that evaluates to true, it's not only executes the code corresponding to that case statement, but also executes all the subsequent case statements till the end of the switch block automatically.<br><br>
+
+To prevent this add a break statement to the end of each case block. The break statement tells PHP to break out of the switch-case statement block once it executes the code associated with the first true case.</p>
+
+<h2 id="arr">PHP Arrays</h2>
+
+<h3>What is PHP Arrays</h3>
+<p>rrays are complex variables that allow us to store more than one value or a group of values under a single variable name. Let's suppose you want to store colors in your PHP script.</p><br>
+
+<img src="img\phpimg\phpexample36.jpg" alt="">
+
+<h3>Types of Arrays in PHP</h3>
+<p>There are three types of arrays that you can create. These are:</p>
+<ol>
+  <li>Indexed array — An array with a numeric key.</li>
+  <li>Associative array — An array where each key has its own specific value.</li>
+  <li>Multidimensional array — An array containing one or more arrays within itself.</li>
+</ol>
+
+<h3>Indexed Arrays</h3>
+<p>An indexed or numeric array stores each array element with a numeric index. The following examples shows two ways of creating an indexed array, the easiest way is:</p>
+<img src="img\phpimg\phpexample37.jpg" alt="">
+
+
+
+<h2 id="sarr">PHP Sorting Arrays</h2>
+
+<h3>PHP Functions For Sorting Arrays</h3>
+<p>In the previous chapter you've learnt the essentials of PHP arrays i.e. what arrays are, how to create them, how to view their structure, how to access their elements etc. You can do even more things with arrays like sorting the elements in any order you like.<br><br>
+
+PHP comes with a number of built-in functions designed specifically for sorting array elements in different ways like alphabetically or numerically in ascending or descending order. Here we'll explore some of these functions most commonly used for sorting arrays.</p><br>
+
+<ol>
+  <li>sort() and rsort() — For sorting indexed arrays</li>
+  <li>asort() and arsort() — For sorting associative arrays by value</li>
+  <li>ksort() and krsort() — For sorting associative arrays by key</li>
+</ol>
+
+<h3>Sorting Indexed Arrays in Ascending Order</h3>
+<p>The sort() function is used for sorting the elements of the indexed array in ascending order (alphabetically for letters and numerically for numbers).</p>
+<img src="img\phpimg\phpexample38.jpg" alt="">
+
+<p>This print_r() statement gives the following output:<br><br>
+Array ( [0] => Blue [1] => Green [2] => Red [3] => Yellow ) </p>
+
+<h3>Sorting Indexed Arrays in Descending Order</h3>
+
+<p>The rsort() function is used for sorting the elements of the indexed array in descending order (alphabetically for letters and numerically for numbers).</p>
+<img src="img\phpimg\phpexample39.jpg" alt="">
+
+<p>This print_r() statement gives the following output:<br><br>
+Array ( [0] => Yellow [1] => Red [2] => Green [3] => Blue ) </p>
+
+<h2 id="loop">PHP Loops</h2>
+
+
+<h3>Different Types of Loops in PHP</h3>
+<p>Loops are used to execute the same block of code again and again, as long as a certain condition is met. The basic idea behind a loop is to automate the repetitive tasks within a program to save the time and effort. PHP supports four different types of loops.</p><br>
+
+<ol>
+  <li>while — loops through a block of code as long as the condition specified evaluates to true.</li>
+  <li>do…while — the block of code executed once and then condition is evaluated. If the condition is true the statement is repeated as long as the specified condition is true.</li>
+  <li>for — loops through a block of code until the counter reaches a specified number.</li>
+  <li>foreach — loops through a block of code for each element in an array.</li>
+</ol>
+
+
+<h3>PHP while Loop</h3>
+<p>The while statement will loops through a block of code as long as the condition specified in the while statement evaluate to true.</p>
+<img src="img\phpimg\phpexample40.jpg" alt="">
+
+<p>The example below define a loop that starts with $i=1. The loop will continue to run as long as $i is less than or equal to 3. The $i will increase by 1 each time the loop runs:</p>
+<img src="img\phpimg\phpexample41.jpg" alt="">
+
+
+
+<h2 id="func">PHP Functions</h2>
+
+
+<h3>PHP Built-in Functions</h3>
+<p>A function is a self-contained block of code that performs a specific task.<br>
+
+PHP has a huge collection of internal or built-in functions that you can call directly within your PHP scripts to perform a specific task, like gettype(), print_r(), var_dump, etc.<br>
+
+Please check out PHP reference section for a complete list of useful PHP built-in functions.</p><br>
+
+<h3>PHP User-Defined Functions</h3>
+<p>In addition to the built-in functions, PHP also allows you to define your own functions. It is a way to create reusable code packages that perform specific tasks and can be kept and maintained separately form main program. Here are some advantages of using functions:</p>
+<ol>
+  <li>Functions reduces the repetition of code within a program — Function allows you to extract commonly used block of code into a single component. Now you can perform the same task by calling this function wherever you want within your script without having to copy and paste the same block of code again and again.</li>
+  <li>Functions makes the code much easier to maintain — Since a function created once can be used many times, so any changes made inside a function automatically implemented at all the places without touching the several files.</li>
+  <li>Functions makes it easier to eliminate the errors — When the program is subdivided into functions, if any error occur you know exactly what function causing the error and where to find it. Therefore, fixing errors becomes much easier.</li>
+  <li>Functions can be reused in other application — Because a function is separated from the rest of the script, it's easy to reuse the same function in other applications just by including the php file containing those functions.</li>
+</ol>
+
+<h3>Creating and Invoking Functions</h3>
+<p>The basic syntax of creating a custom function can be give with:</p>
+<img src="img\phpimg\phpexample42.jpg" alt="">
+
+<p>The declaration of a user-defined function start with the word function, followed by the name of the function you want to create followed by parentheses i.e. () and finally place your function's code between curly brackets {}.<br><br>
+
+This is a simple example of an user-defined function, that display today's date:</p>
+<img src="img\phpimg\phpexample43.jpg" alt="">
+
+<h2 id="mathop">PHP Math Operations</h2>
+
+
+<h3>Performing Math Operations</h3>
+<p>PHP has several built-in functions that help you perform anything from simple additions or subtraction to advanced calculations. You've already seen how to perform basic mathematical operations in PHP operators chapter. Let's check out one more example:</p><br>
+
+<img src="img\phpimg\phpexample44.jpg" alt="">
+
+<p>Every math operation has a certain precedence level; generally multiplication and division are performed before addition and subtraction. However, parentheses can alter this precedence; expressions enclosed within parentheses are always evaluated first, regardless of the operation's precedence level, as demonstrated in the following example:</p>
+<img src="img\phpimg\phpexample45.jpg" alt="">
+
+
+
+<h2 id="gepo">PHP GET and POST</h2>
+
+<h3>The GET Method</h3>
+<p>In GET method the data is sent as URL parameters that are usually strings of name and value pairs separated by ampersands (&). In general, a URL with GET data will look like this:<br><br>
+http://www.example.com/action.php?name=john&age=24<br><br>
+
+The bold parts in the URL are the GET parameters and the italic parts are the value of those parameters. More than one parameter=value can be embedded in the URL by concatenating with ampersands (&). One can only send simple text data via GET method.</p><br>
+
+<p>PHP provides the superglobal variable $_GET to access all the information sent either through the URL or submitted through an HTML form using the method="get".</p>
+
+<img src="img\phpimg\phpexample46.jpg" alt="">
+
+
+<h3>The POST Method</h3>
+<p>In POST method the data is sent to the server as a package in a separate communication with the processing script. Data sent through POST method will not visible in the URL.</p>
+
+<p>Like $_GET, PHP provide another superglobal variable $_POST to access all the information sent via post method or submitted through an HTML form using the method="post".</p>
+<img src="img\phpimg\phpexample47.jpg" alt="">
+
+
+</div>
+
+</body>
+</html>

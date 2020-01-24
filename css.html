@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            html,body,img{margin:0;padding:100;border:50;font-size:100%;font:inherit;vertical-align:baseline}
+html,body{min-height:100%;width: 95%;}
+.leftcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.leftcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; solid transparent}
+.leftcolumn ul{list-style:none;padding:2px;margin:2px}
+.leftcolumn{position: sticky;}
+h3{
+    background-color: rgb(148, 195, 240);
+}
+img{
+    background-color: gray;
+}
+h5{
+    background-color: rgb(155, 238, 155);
+}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+position:fixed;
+top:0;
+padding-top:112px;
+padding-bottom:0;    
+height:100%;
+width:22%;
+background-color:transparent;
+width:22%;
+overflow-y:scroll;
+overflow-x:hidden;
+padding-top:20px;
+margin: 10px;
+}
+
+  .main {
+  width: 75%;
+  float: right;
+  padding: 15px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  
+  
+
+
+</style>
+
+ <style>       
+.rightcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.rightcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; solid transparent}
+.rightcolumn ul{list-style:none;padding:0;margin:0}       
+</style>
+
+</head>
+
+<!-----------------------------------------------------BODY START--------------------------------------------------->
+
+<body>
+
+<p style="text-align: center;"><img src="img\bithi&&hamim\cssImg.jpg" alt="html"></p>
+<p style="text-align: right;"><font size="4">Describes the presentation of a document written in a markup language like HTML</font></p>
+
+<div class="menu">
+<div class="leftcolumn" id="myNav">		
+<div class="segment"><span>CSS</span> BASIC</div>
+<div class="attributes">
+    <a href="#int">CSS Introduction</a>
+    <a href="#getstart">CSS Getting Started</a>
+    <a href="#elements">Syntax</a>
+    <a href="#selector">Selectors</a>
+    <a href="#color">Color</a>
+    <a href="#background">Backgrounds</a>
+    <a href="#font">Fonts</a>
+    <a href="#text">Text</a>
+    <a href="#csslinks">Links</a>
+    <a href="#lists">Lists</a>
+    <a href="#tables">Tables</a>
+</div>
+</div>
+</div>
+
+<div class="main">
+
+    <!---------------------------------------------------------INTRODUCTION---------------------------------------->
+<div id="int">
+    <h1>Introduction</h1>
+    <p>CSS is the key presentational technology that is used in website design.
+            CSS stands for Cascading Style Sheets. CSS is a standard style sheet language used for describing 
+            the presentation (i.e. the layout and formatting) of the web pages. Prior to CSS, nearly all of the
+            presentational attributes of HTML documents were contained within the HTML markup 
+            (specifically inside the HTML tags); all the font colors, background styles, element alignments,
+            borders and sizes had to be explicitly described within the HTML.
+            As a result, development of the large websites became a long and expensive process, since the 
+            style information were repeatedly added to every single page of the website.
+            To solve this problem CSS was introduced in 1996 by the World Wide Web Consortium (W3C), 
+            which also maintains its standard. CSS was designed to enable the separation of presentation and 
+            content. Now web designers can move the formatting information of the web pages to a separate style
+             sheet which results in considerably simpler HTML markup, and better maintainability.
+            CSS3 is the latest version of the CSS specification. CSS3 adds several new styling features and 
+            improvements to enhance the web presentation capabilities.
+    </p>
+    <h3>Advantages of Using CSS</h3>
+    <p>The biggest advantage of CSS is that it allows the separation of style and layout from the content 
+        of the document. Here are some more advantages, why one should start using CSS?
+    </p>
+    <ul>
+        <li><strong> Save Lots of Time</strong>— CSS gives lots of flexibility to set the style properties of an element.
+             You can write CSS once; and then the same code can be applied to the groups of HTML elements, 
+             and can also be reused in multiple HTML pages.</li>
+        <li><strong>Easy Maintenance </strong>— CSS provides an easy means to update the formatting of the documents, and to
+             maintain the consistency across multiple documents. Because the content of the entire set of web
+              pages can be easily controlled using one or more style sheets.</li>
+        <li><strong>Pages Load Faster </strong>— CSS enables multiple pages to share the formatting information, which reduces
+             complexity and repetition in the structural contents of the documents. It significantly reduces the 
+             file transfer size, which results in a faster page loading.</li>
+        <li><strong>Superior Styles to HTML </strong> — CSS has much wider presentation capabilities than HTML and provide much 
+            better control over the layout of your web pages. So you can give far better look to your web 
+            pages in comparison to the HTML presentational elements and attributes.</li>
+        <li><strong>Multiple Device Compatibility</strong> — CSS also allows web pages to be optimized for more than one 
+            type of device or media. Using CSS the same HTML document can be presented in different viewing 
+            styles for different rendering devices such as desktop, cell phones, etc.</li>
+       
+    </ul>
+    <br><br>
+</div>
+
+
+
+
+<!-----------------------------------------------------GETTING STARTED-------------------------------------------->
+
+<div id="getstart">
+
+
+        <h1>Getting Started</h1> 
+        <p>CSS can be included inside HTML document through various ways.</p>
+        
+        <h3>Getting Started with CSS</h3>
+        <p>In this tutorial you'll learn how easy it is to add style and formatting information to the 
+            web pages using CSS. But, before we begin, make sure that you have some working knowledge of 
+            HTML.If you're just starting out in the world of web development, start learning from here »
+             Well, let's get started with the most popular style sheet language.</p>
+        
+        <h3> CSS in HTML Documents</h3>
+        <p>You can include CSS in an HTML document in three ways:
+            Inline styles — Using the style attribute in the HTML start tag.
+            Embedded styles — Using the <<span>style</span>> element in the head section of a document.
+            External style sheets — Using the <link> element, pointing to an external CSS file.
+            In this tutorial we will cover all these three methods for inserting CSS one by one.</p>
+        
+        <h3>Inline Styles</h3>
+        <p>Inline styles are used to apply the unique style rules to an element by putting the CSS rules 
+            directly into the start tag. It can be attached to an element using the style attribute.
+            The style attribute includes a series of CSS property and value pairs. Each "property: value" pair 
+            is separated by a semicolon (;), just as you would write into an embedded or external style sheets.
+            But it needs to be all in one line i.e. no line break after the semicolon, as shown here:
+        
+        <h4>Example:</h4>
+        <pre><span><<span>h1</span>>style="color:red; font-size:30px;">This is a heading<<span>/h1</span>>
+                   <<span>p</span>> style="color:green; font-size:22px;">This is a paragraph.<<span>/p</span>>
+                   <<span>p</span>> style="color:blue; font-size:14px;">This is some text content.<<span>/p</span>>
+        </span></pre>
+        Using the inline styles are generally considered as a bad practice. As style rules are embedded 
+        directly inside the HTML tag, it causes the presentation to become mixed with the content of the 
+        document; which makes the code hard to maintain and negates the purpose of using CSS.
+    </p>
+
+    <h3>Embedded Style Sheets</h3>
+   <p>Embedded or internal style sheets only affect the document they are embedded in.
+       Embedded style sheets are defined in the <<span>head</span>>section of an HTML document using the <<span>style</span>> element.
+        You can define any number of <<span>style</span>> elements in a HTML document but they must appear between 
+        the <<span>head</span>> and <<span>/head</span>> tags. Here's an example:
+   </p>
+   <img src="img\bithi&&hamim\2.JPG" alt="Embede style sheet">
+
+   <h3>External Style Sheets</h3>
+<p>An external style sheet is ideal when the style is applied to many pages of the website.
+An external style sheet holds all the style rules in a separate document that you can link from any HTML
+ file on your site. External style sheets are the most flexible because with an external style sheet, 
+ you can change the look of an entire website by changing just one file.
+ You can attach external style sheets in two ways — linking and importing.</p>
+
+<h3>Linking External Style Sheets</h3>
+<p>linking, we need to create a style sheet first. Let's open your favorite code editor and create a new file.
+     Now type the following CSS code inside this file and save it as "style.css".</p>
+<h4>Example</h4> 
+<img src="img\bithi&&hamim\3.JPG" alt="linking external style sheet">
+<p>An external style sheet can be linked to an HTML document using the <<span>link</span>> tag. The <<span>link</span>> tag 
+    goes inside the <head> section, as shown in this example:</p>
+
+<h5>Tip: Among all the three methods, using external style sheet is the best method for defining and applying styles to
+     the HTML documents. As you can clearly see with external style sheets, the affected HTML file require minimal 
+     changes in the markup.</h5>
+<h3>Importing External Style Sheets</h3>
+<p>The @import rule is another way of loading an external style sheet. The @import statement instructs the browser 
+    to load an external style sheet and use its styles.You can use it in two ways. The simplest is within the header 
+    of your document. Note that, other CSS rules may still be included in the <<span>style</span>> element. Here's an example:</p>
+<img src="img\bithi&&hamim\4.JPG" alt="Importing external style sheet">
+<p>Similarly, you can use the @import rule to import a style sheet within another style sheet.</p>
+<img src="img\bithi&&hamim\5.JPG" alt="another way to external">
+
+<p style="background-color: rgb(152, 160, 194);">Note: All @import rules must occur at the start of the style sheet. Any style rule defined in the style sheet 
+     itself override the conflicting rules in the imported style sheets. However, importing a style sheet within another 
+    style sheet is not recommended due to performance issue.</p>
+    <br><br>
+</div>
+
+
+
+<!--------------------------------------CSS SINTAX-------------------------------------------------------->
+<div id="elements">
+
+<h1>CSS Syntax</h1>
+<p>A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements
+     in your document. A style rule is made of three parts −</p>
+<ul>
+    <li><strong>Selector</strong>− A selector is an HTML tag at which a style will be applied. This could be any tag like <<span>h1</span>> or <<span>table</span>> etc.</li>
+    <li><strong>Property</strong> − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. 
+    They could be color, border etc.</li>
+    <li><strong>Value</strong> − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.</li>
+</ul>
+<p>A CSS rule-set consists of a selector and a declaration block:</p>
+<img  src="img\bithi&&hamim\selector.jpg" alt="Selector">
+<p>To make the CSS more readable, you can put one declaration on each line, like this:</p>
+<img src="img\bithi&&hamim\6.JPG" alt="selector1">
+<p>In the example above h1 is a selector, color and text-align are properties and given blue and center are the 
+    corresponding values of these properties.</p>
+<p style="background-color: rgb(152, 160, 194);">Note: A CSS declaration always ends with a semicolon ";", and the declaration groups are always surrounded by 
+    the curly brackets "{}".</p>
+ <h3>CSS Comments</h3>
+<p>Comments are usually added with the purpose of making the source code easier to understand. It may help other 
+    developer (or you in the future when you edit the source code) to understand what you were trying to do with the
+     CSS. Comments are significant to programmers but typically ignored by browsers.
+    A CSS comment begins with /*, and ends with */, See the example below:</p>
+<h4>Example</h4>
+<img src="img\bithi&&hamim\7.JPG" alt="comments">
+<p style="background-color: rgb(152, 160, 194);">Note:The // single-line comment style is NOT supported in CSS<br>
+   The <<span>!-- ... --</span>> HTML comment style is also NOT supported in CSS
+</p>
+<br><br>
+</div>
+
+
+
+<!--------------------------------------------------------SELECTOR------------------------------------------------->
+<div id="selector">
+    <h1>CSS Selectors</h1> 
+    <p>A CSS selector is the part of a CSS rule set that actually selects the content you want to style. 
+        Let’s look at all the different kinds of selectors available, with a brief description of each.
+    </p>
+    <h3>Universal Selector</h3>
+    <p>The universal selector, written as * i.e. asterisk or star symbol, matches every single element on the page. 
+        The universal selector may be omitted if other conditions exist on the target element. This selector is often
+        used to remove the default margins and paddings from the elements for quick testing purpose.
+    </p>
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\8.JPG" alt="universal_selector">
+    <p>The two lines of code inside the curly braces (<strong>padding</strong>,<strong>margin</strong>) will apply to all elements
+        on the HTML page. As seen here, the universal selector is declared using an asterisk. You can also use the 
+        universal selector in combination with other selectors.
+    </p>
+    <h3>Element Type Selector</h3>
+      <p>An element type selector matches every instance of the element in the document tree with the 
+          corresponding element type name.
+      </p>
+      <img src="img\bithi&&hamim\9.JPG" alt="element type selector">
+      <p>The style rules inside the p selector will be applied on every <p> element in the document and color it
+           blue, regardless of their position in the document tree.
+      </p>
+      <h3>Id Selectors</h3>
+      <p>The id selector is used to define style rules for a single or unique element.
+         The id selector is defined with a hash sign (#) immediately followed by the id value.
+      </p>
+      <h4>Example</h4>
+      <img src="img\bithi&&hamim\id_selector.JPG" alt="idSelector">
+      <p>This style rule renders the text of an element in red, whose id attribute is set to error. </p>
+
+      <h3>Class Selectors</h3>
+      <p>The class selectors can be used to select any HTML element that has a class attribute. All the elements 
+          having that class will be formatted according to the defined rule.The class selector is defined with a period
+         sign (.) immediately followed by the class value.
+       </p>
+       <h4>Example</h4>
+       <img src="img\bithi&&hamim\class_selector1.JPG" alt="class_selector1">
+       <p>The above style rules renders the text in blue of every element in the document that has class attribute set 
+           to blue. You can make it a bit more particular. For example:</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\Class_selector2.JPG" alt="Class_selector2">
+        <p>The style rule inside the selector p.blue renders the text in blue of only those <<span>p</span>> elements
+             that has class attribute set to blue, and has no effect on other paragraphs.</p>
+
+       <h3>Child Selectors</h3>
+       <p>A child selector can be used to select only those elements that are the direct children of some element.
+          A child selector is made up of two or more selectors separated by the greater than symbol (i.e. >).
+          You can use these selectors for example, to select the first level of list elements inside a nested list 
+          that has more than one level.
+       </p>
+       <h4>Example</h4>
+       <img src="img\bithi&&hamim\child_selector.JPG" alt="child_selector">
+       <p>The style rule inside the selector ul > li applied to only those <<span>li</span>> elements that are direct
+         children of the <<span>ul</span>> elements, and has no effect on other list elements.</p>
+
+       <h3>Adjacent Sibling Selectors</h3>
+       <p>The adjacent sibling selectors can be used to select sibling elements. This selector has the syntax like:
+           E1 + E2, where E2 is the target of the selector.The selector h1 + p in the example below will select the <<span>p</span>>
+            elements only if both the <<span>h1</span>> and <<span>p</span>> elements share the same parent in the document tree and <<span>h1<span></span>> is 
+            immediately precedes the <<span>p</span>> element. That means only those paragraphs that come immediately after each <<span>h1</span>> 
+            heading will have the associated style rules.
+        </p> 
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\adjacent_sibling_selector.JPG" alt="adjacent_sibling_selector">
+
+
+        <h3>General Sibling Selectors</h3>
+        <p>The general sibling selector is similar to the adjacent sibling selector (E1 + E2), but it's less strict.
+            A general sibling selector is made up of two simple selectors separated by the tilde (∼) character. It can be written like: E1 ∼ E2, where E2 is the target of the selector.
+            The selector h1 ∼ p in the example below will select all the <<span>p</span>> elements that preceded by the <<span>h1</span>> element, 
+            where all the elements share the same parent in the document tree.
+        </p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\general_sibling_selector.JPG" alt="general_sibling_selector">
+        <p>There are more selectors like attribute selectors, pseudo-classes, pseudo-elements. We will discuss 
+            about these selectors in upcoming chapters.
+        </p>
+
+
+        <h3>Grouping Selectors</h3> 
+        <p>Often several selectors in a style sheet share the same style rules declarations. You can group them into a
+            comma-separated list to minimize the code in your style sheet. It also prevents you from repeating the 
+            same style rules over and over again.
+        </p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\group_selector.JPG" alt="group_selector">
+        <p>As you can see in the above example, the same style rule font-weight: normal; is shared by the selectors h1,
+             h2 and h3. So, it can be grouped in a comma-separated list, like this:</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\group_selector1.JPG" alt="group_selector1">
+        <br><br>
+</div>
+
+<!------------------------------------------------CSS COLORS---------------------------------------------------->
+
+<div id="color">
+ <h1>CSS Colors</h1>
+ <p>The CSS color property defines the foreground color for an element.</p>
+ <img src="img\bithi&&hamim\Color.jpg" alt="csscolors">
+ <h3>Setting Color Property</h3>
+ <p>The color property typically defines the color of the text content of an element.<br>
+    For instance, the color property specified in the body selector defines the default text color 
+    (foreground color in general) for the whole page.
+</p>
+<h4>Example</h4>
+<p>Colors in CSS most often specified by the following methods:</p>
+<ul>
+<li> HEX value - like "#ff0000"</li>
+<li>an RGB value - like "rgb(255,0,0)"</li>
+<li>a color name - like "red"</li>
+</ul>
+<p>Look at <a href="https://www.tutorialrepublic.com/css-reference/css-color-names.php">CSS Color Names</a> for a complete list of possible color names.</p>
+<h3>CSS Background Color</h3>
+<p>You can set the background color for HTML elements:</p>
+<h1 style="background-color:DodgerBlue; text-align: center; color: white;">ICT 7Th Batch</h1>
+<h4>Example</h4>
+<img src="img\bithi&&hamim\background-color.JPG" alt="background-color">
+
+<h3>CSS Text Color</h3>
+<p>You can set the color of text:</p>
+<h4 style="color:tomato">Hello World</h4>
+<p style="color: dodgerblue;"> Hi!This is Hamima,A student of ICT in comilla University</p>
+<p style="color:mediumseagreen">Comilla is a renowned district in Bangladesh</p>
+<h4>Example</h4>
+<img src="img\bithi&&hamim\textColors.JPG" alt="textColors">
+
+<h3>CSS Border Color</h3>
+<p>You can set the color of borders:</p>
+
+<h4 style="border:2px solid tomato;">ICT Department</h4>
+<h4 style="border:2px solid dodgerblue">ICT Department</h4>
+<h4 style="border: 2px solid violet;">ICT Department</h4> 
+<h4>Example</h4>
+<img src="img\bithi&&hamim\border-color.JPG" alt="border-color">
+<br><br>
+</div>
+
+
+<!-------------------------------------------BACKGROUND------------------------------------------------->
+
+<div id="background">
+
+        <h1>CSS Background</h1>
+        <p>CSS background properties are used to define background styles for the elements.</p>
+        
+        <h3>Background Properties</h3>
+        <p>The CSS provide several properties for styling the background of an element, like: background-color, 
+        background-image, background-repeat, background-attachment and background-position. The following section 
+        will describe you how to use these properties to set the different styles for the backgrounds one by one.</p>
+        
+        <h3>Background Color</h3>
+        <p>The background-color property is used to set the background color of an element.<br>
+            The example below demonstrates, how to set the background color of a web page.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\background-color1.JPG" alt="background-color1">
+        <p>Colors in CSS most often specified by the following methods:</p>
+
+         <ul>
+            <li> HEX value - like "#ff0000"</li>
+            <li>an RGB value - like "rgb(255,0,0)"</li>
+            <li>a color name - like "red"</li></ul>
+        <p>Look at <a href="https://www.tutorialrepublic.com/css-reference/css-color-names.php">CSS Color Names</a> Names for a complete list of possible color names.</p>
+        <h3>Background Image</h3>
+        <p>The background-image property set an image as a background of an HTML element.<br>
+           See the example below which demonstrates how to set the background image for a page.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\background-image.JPG" alt="background-image">
+
+        <h3>Background Attachment</h3>
+        <p>The background-attachment property determines whether the background image is fixed with regard
+            to the viewport or scrolls along with the containing block.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\background-attachment.JPG" alt="background-attachment">
+
+        <h3>Background Position</h3>
+        <p>The background-position property is used to control the position of the background image.<br>
+          If no background-position has been specified, the image is placed at the default top-left position
+           of the element i.e. at (0,0). See the example below:</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\background-position.JPG" alt="background-position">
+        <p>In the following example, the background image is positioned at top-right corner and the position 
+            of the image is specified by the background-position property.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\background-position1.JPG" alt="">
+
+        <h3>The Background Shorthand Property</h3>
+        <p>As you can see from the examples above, there are many properties to consider when dealing with 
+        the backgrounds. It is also possible to specify all these properties in one single property, to shorten the 
+        code. This is called a shorthand property. The background property is a shorthand property for setting 
+        all the individual background properties (i.e., background-color, background-image, background-repeat, 
+        background-attachment and background-position) at once. For example:</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\background-shorhand.JPG" alt="background-shorhand">
+       <p>Using the shorthand notation the above example can be written as:</p>
+       <h4>Example</h4>
+       <img src="img\bithi&&hamim\background-shorthand1.JPG" alt="background-shorhand1">
+       <p>If the value for an individual background property is missing or not specified while using the shorthand 
+          notation, the default value for that property will be used instead, if any.</p>
+       <p style="background-color: aqua;">Note: The background properties do not inherit, but the parent element's background will be 
+          visible through by default because of the initial (i.e. default) transparent value of the background 
+          CSS property.</p>
+
+</div>
+
+<!-------------------------------------------------------FONT-------------------------------------------------->
+
+
+<div id="font">
+        <h2>CSS Fonts</h2>
+        <p>The CSS font properties allows you to set various styles for fonts likes font family, size and boldness,
+         variant, etc. of a text.</p>
+        
+        <h3>Font Properties</h3>
+        <p>The CSS provide several properties for styling fonts of the text content, like: font-family, 
+        font-style, font-variant, font-weight and font-size. The following section will describe you each one of 
+        these properties one by one.</p>
+        
+        <h3>Font Family</h3>
+        <p>The font-family CSS property allows you to set a prioritized list of font family name and/or generic 
+        family name for the text content of a selected element.The font-family property can hold several font names 
+        as a fallback system. List the font that you want first, then any fonts that might fill in for the first if 
+        it is not available. You should end the list with a generic font family which are five — serif, sans-serif,
+         monospace, cursive and fantasy. A font family declaration might look like this:</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\font-family.JPG" alt="font-family">
+
+        <p style="background-color: aqua;">Note: If the name of a font family is more than one word, it must be in quotation marks, like "Times New Roman",
+         "Courier New", "Trebuchet MS" etc.</p>
+        <h3>Font Style</h3>
+        <p>The font-style property sets the font style for the text content of an element.
+           The possible values for this property are: normal, italic or oblique.</p>
+        <h4>Example
+        <img src="img\bithi&&hamim\font-style.JPG" alt="font-style">
+
+        <p style="background-color: aqua;">Note: At first glance both oblique and italic styles appear the same thing, but there is difference. 
+        The italic style uses an italic version of the font while oblique text on the other hand is simply a
+         slanted version of the normal font.</p>
+
+        <h3>Font Size</h3>
+        <p>The font-size property sets the size of font for the text content of an element.<br>
+         There are several ways to specify the font size values e.g. with keywords, pixels or ems.</p> 
+        <h3>Setting Font Size with Keywords</h3>
+        <p>By setting a keyword font size on the body element, you can set relative font-sizing everywhere else on
+         the page, giving you the ability to easily scale the font up or down on the entire page accordingly.
+          An absolute size is specified using one of the following keywords: xx-small, x-small, small, medium, large, 
+          x-large, xx-large.<br>
+        A relative size is specified using one of the following keywords: smaller, larger.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\font-size-keywords.JPG" alt="font-size-keywords">
+
+        <h3>Setting Font Size with Pixels</h3>
+        <p>Setting the font size in pixel values (e.g. 12px, 16px, etc.) is a good choice when you need the
+         pixel accuracy. However, the results may vary to some extent across the browsers, since they use different 
+         algorithms to achieve the similar effect.<br>
+         Defining the font sizes in pixel is not very accessible, because a user cannot change the font size from the
+         browser settings. For instance, users with limited vision may wish to set the font size larger than the size
+         specified by you. Therefore, you should avoid using the pixels values for font sizes if you wish to create an 
+         inclusive design.</p>
+         <h4>Example</h4>
+         <img src="img\bithi&&hamim\font-size-pixels.JPG" alt="font-size-pixels">
+
+       <p style="background-color: aqua;">Tip: The text can be resized in all browsers using the zoom tool. However, this feature resizes 
+       the entire page, not just the text.</p>
+
+       <h3>Setting Font Size with Em</h3>
+        <p>The em unit refers to the font size of the parent element.<br>
+        The size of an em value is dynamic. When defining the font-size property, an em is equal to the size of the
+         font that applies to the parent of the element.<br>
+        If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px.<br>
+        If you haven't set the font size anywhere on the page, then it is the browser default, which is probably 16px. 
+        So, by default 1em = 16px, and 2em = 32px.
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\font-size-em.JPG" alt="font-size-em">
+
+        <h3>Font Weight</h3>
+        <p>The font-weight property specifies the weight or boldness of the font.<br>
+         The possible values of font-style property are: normal, bold, bolder, lighter, 100, 200, 300, 400, 500,
+        600, 700, 800, 900 and inherit.<br>The numeric values 100-900 specify the font weights, where each number 
+        represents a weight darker than its predecessor. 400 is same as normal & 700 is same as bold.<br>The bolder 
+        and lighter values are relative to the inherited font weight, while the other values are absolute font weights.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\font-weight.JPG" alt="font-weight">
+        <p>Since most of the fonts are only available in a limited number of weights; often they are available only 
+        in normal and bold. If the font isn't available in the specified weight, an alternate will be chosen that is the 
+        closest available weight.</p>
+
+        <h3>Font Variant</h3>
+        <p>The font-variant property allows the text to be displayed in a special small-caps variation.<br>
+        Small-caps or small capital letters are slightly different to normal capital letters, in which lowercase 
+        letters appear as smaller versions of the corresponding uppercase letters.<br>
+        The possible values for the font-variant property are normal, small-caps and inherit.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\font-variant.JPG" alt="font-variant">
+        <br><br>
+</div>
+
+
+<!----------------------------------------------------TEXTS---------------------------------------------------->
+
+<div id="text">
+    <h1>CSS Text</h1>
+    <img src="img\bithi&&hamim\CSS-Text-Formatting-Properties.png" alt="CSS-Text-Formatting-Properties">
+    <h3>Text Color</h3>
+    <p>The color property is used to set the color of the text. The color is specified by:</p>
+    <ul>
+    <li>a color name - like "red"</li>
+    <li>a HEX value - like "#ff0000"</li>
+    <li>an RGB value - like "rgb(255,0,0)"</li></ul>
+    <p>Look at CSS Color Values for a complete list of possible color values.<br>
+        The default text color for a page is defined in the body selector.</p>
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\text-color.JPG" alt="text-color">
+
+    <h3>Text Alignment</h3>
+    <p>The text-align property is used to set the horizontal alignment of a text.<br>
+        Possible values for this property are: left, right, center, justify, and inherit.</p>
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\text-allignment.JPG" alt="text-allignment">
+    <p style="background-color: aqua;">Note: When text-align is set to justify, each line is stretched so that every line has equal width, 
+    and the left and right margins are straight.</p>
+
+    <h3>Text Decoration</h3>
+    <p>The text-decoration property is used to set or remove decorations from text.<br>
+       Possible values of this property are: none, underline, overline, line-through, blink and inherit.
+        You should avoid underline text that is not a link, as it might confuse the visitor.</p>
+
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\text-decoration.JPG" alt="text-decoration">
+
+    <h3>Text Transformation</h3>
+    <p>The text-transform property is used to specify uppercase and lowercase letters in a text.<br>It can be used 
+    to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:</p>
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\text-transformation.JPG" alt="text-transformation">
+
+    <h3>Line Height</h3>
+    <p>The line-height property is used to specify the space between lines:</p>
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\text-line-height.JPG" alt="text-line-height">
+
+
+    <h3>Text Shadow</h3>
+    <p>The text-shadow property adds shadow to text.<br>
+      The following example specifies the position of the horizontal shadow (3px), the position of the vertical 
+      shadow (2px) and the color of the shadow (red):</p>
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\text-shadow.JPG" alt="text-shadow">
+
+    <h3>Word Spacing</h3>
+    <p>The word-spacing property is used to specify the space between the words in a text.<br>
+      The following example demonstrates how to increase or decrease the space between words: </p>
+    <h4>Example</h4>
+    <img src="img\bithi&&hamim\word-spacing.JPG" alt="word-spacing">
+    <br><br>
+
+</div>
+
+
+<!---------------------------------------------------LINKS------------------------------------------------------>
+<div id="csslinks">
+        <h1>CSS Links</h1>
+        <p>A link or hyperlink is a connection from one web resource to another.
+        <h3>Styling Links with CSS</h3>
+        <p>A link has four different states — link, visited, active and hover. These four states of a link or
+         hyperlink can be styled differently through CSS properties using the pseudo-classes of anchor element,
+        depending on what state they are in.<br>
+        Here're the CSS pseudo-classes associated with HTML <<span>a</span>> tag that you can use to define the different styles 
+        for the different states of a hyperlink.</p>
+                
+        <ul><li>a:link— Set styles for a normal or unvisited links that has no mouse pointer over it.</li>
+            <li>a:visited — Set styles for a link the user has visited but has no mouse pointer on it.</li>
+            <li>a:hover — Set styles for a link when the user place the mouse pointer over it.</li>
+            <li>a:active — Set styles for a link that is in the process of being clicked.</li>
+            </ul>
+        <p>You can specify any CSS property you'd like e.g. color, font-family, background, etc. to each of 
+        these selectors to redefine the style of links, just like you'd do with the normal text.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\link.JPG" alt="link">
+        <h3>Background Color</h3>
+        <p>The background-color property can be used to specify a background color for links:</p>
+
+       <h4>Example</h4>
+       <img src="img\bithi&&hamim\linkdecoration.JPG" alt="linkdecoration">
+       <h3>Advanced - Link Buttons</h3>
+        <p>This example demonstrates a more advanced example where we combine several CSS properties to 
+        display links as boxes/buttons:</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\link-advanced.JPG" alt="link-advanced">
+        <br><br>
+</div>
+
+
+<!-----------------------------------------------------LISTS-------------------------------------------------->
+<div id="lists">
+        <h1>CSS Lists</h1>
+        <p>The list properties used to control the presentation of list item markers.</p>
+        
+        <p>Types of HTML Lists<br>
+        There are three different types of list in HTML:</p>
+        
+        <ul><li>Unordered lists — A list of items, where every list items are marked with bullets.</li> 
+        <li>Ordered lists — A list of items, where each list items are marked with numbers.</li> 
+        <li>Definition list — A list of items, with a description of each item.</li> </ul>
+        <p>To know more about lists, please check out the tutorial on HTML lists.</p>
+        
+        <h3>Styling Lists with CSS</h3>
+        <p>CSS provides the several properties for styling the most commonly used unordered and ordered lists.<br> 
+        These CSS list properties typically allow you to:</p>
+        
+        <ul><li>Control the shape or appearance of the marker.</li>
+            <li>Specify an image for the marker rather than a bullet point or number.</li>
+            <li>Set the distance between a marker and the text in the list.</li>
+            <li>Specify whether the marker or bullet would appear inside or outside of the box containing the unordered or ordered list items.</li>
+            <li>In the following section we'll discuss about the properties that can be used to style lists.</li></ul>
+        
+        <h3>List Style Type</h3>
+        <p>By default, items in an ordered list are numbered with Arabic numerals (1, 2, 3, etc.),
+            whereas in an unordered list, items are marked with round bullets. But, you can change this
+            default list marker type to any other type such as circle, square, roman numerals,
+            latin letters, and so on using the list-style-type property.</p>
+        <h4>Example</h4>
+        <img src="img\bithi&&hamim\list-Style-Type.JPG" alt="list-Style-Type">
+
+
+</div>
+
+
+<!----------------------------------------------------TABLES-------------------------------------------------->
+
+<div id="tables">
+
+</div>
+
+
+
+</div>

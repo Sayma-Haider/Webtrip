@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/crawler.png" type="image/png">
+        <title>Webtrip</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <style>
+            html,body,img{margin:0;padding:100;border:50;font-size:100%;font:inherit;vertical-align:baseline}
+html,body{min-height:100%;}
+.leftcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.leftcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; color:solid transparent}
+.leftcolumn ul{list-style:none;padding:2px;margin:2px}
+.leftcolumn{position: sticky;}
+h3{
+    background-color: rgb(148, 195, 240);
+}
+img{
+    background-color: gray;
+}
+h5{
+    background-color: rgb(155, 238, 155);
+}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+position:fixed;
+top:0;
+padding-top:112px;
+padding-bottom:0;    
+height:100%;
+background-color:transparent;
+width:22%;
+overflow-y:scroll;
+overflow-x:hidden;
+padding-top:20px;
+margin: 10px;
+}
+
+  .main {
+  width: 75%;
+  float: right;
+  padding: 15px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  }
+  
+
+</style>
+
+ <style>       
+.rightcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.rightcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; solid transparent}
+.rightcolumn ul{list-style:none;padding:0;margin:0}       
+</style>
+
+</head>
+
+
+<body>
+
+<p style="text-align: center;"><img src="htmlimg.jpg" alt="html"></p>
+<p style="text-align: center;"><fontsize="6">The language for making web pages</p>
+
+<div class="menu">
+<div class="leftcolumn" id="myNav">		
+<div class="segment"><span>JAVASCRIPT</span> BASIC</div>
+<div class="attributes">
+    <ul>
+    <li><a href="#int">JAVASCRIPT Introduction</a></li>
+    <li><a href="#getstart">Creating your first JAVASCRIPT</a></li>
+    <li><a href="#elements">JAVASCRIPT variable and operator</a></li>
+    <li><a href="#ls">JAVASCRIPT Loops and Statement</a></li>
+    <li><a href="#fun">JAVASCRIPT  Function</a></li>
+    <li> <a href="#event">JAVASCRIPT event</a></li>
+    <li> <a href="#string">JAVASCRIPT string</a></li>
+    <li> <a href="#tf">JAVASCRIPT escape character</a></li>
+    <li>  <a href="#form">JAVASCRIPT forms</a></li>
+    <li>  <a href="#dialog">JAVASCRIPT dialog box</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+
+<div class="main">
+    
+<h2 id="int">JAVASCRIPT  Introduction</h2>
+<p>
+JavaScript is a programming language commonly used in web development.It is orginally developed by Netscape as a means to add dynamic and interactive elements to website.Like server-side scripting languages,such as PHP and ASP,JavaScript code can be inserted anywhere within the HTML of a webpage.
+
+
+</p>
+
+<div>
+<h2 id="getstart"> Creating your first JAVASCRIPT</h2>
+<p>Javascript on the web lives inside the HTML document.In HTML,JavaScript must be written between <span>script</span>> and<<span>/script</span>> tags.Below example: </p>
+<p><img src="img\naimaimg\script.png"></P>
+<h3>Javascript placement in html file:</h3>
+
+<p>1.Script in<span>head</span>......<span>/head</span>section</p>
+<p>2.Script in<span>body</span>......<span>/body</span>section</p>
+<p>3.Script in<span>head</span>......<span>/head</span> and Script in<span>body</span>......<span>/body</span>section</p>
+<p>4.Script in an external file and then include in <span>head</span>......<span>/head</span>section</p>
+<p>You will learn about the different JavaScript elements in detail in the upcoming chapters. For now, just focus on the basic structure of the JavaScript document.</p>
+<h4>Javascript in <span>head</span>>......<span>/head</span>></h4>
+<p>If you want to have a javascript run on some event,such as when a user clicks somewhere v,then you will place that script in the head as follows-</p>
+<p><img src="img\naimaimg\head1.png"></p>
+<h4>Javascript in <span>body</span>......<span>/body</span></h4>
+<p>If you  need a script to run as the page loads so that the script goes in the <span>body</span> portion of the document.In this case,you would not have any fuction defined using javascript.Take a look at the following code:</p>
+<p><img src="img\naimaimg\body1.png"></p>
+<h4>Javascript in <span>head</span>>......<span>body</span>></h4>
+<p>IF you can put your javascript code in <span>head</span>>......<span>body</span>> section altogether as follows:</p>
+<p><img src="img\naimaimg\hb.png"></p>
+<h4>Javascript in external file</h4>
+<p>Here in an example to show how you can include an external javascript file in your HTML code using the script tag and its src attribute:</p>
+<p><img src="img\naimaimg\external.png"></p>
+</div>
+
+<div>
+<h2 id="elements">JAVASCRIPT Variable and Operator</h2>
+<h3>Variable:</h3>
+<p>Variable are containers for storing data values.The value of a <span style="color:blue">variable</span> can change throughout the program.
+Use the <span style="color:blue">var</span> keyword to declare a <span style="color:blue">variable</span>.</p>
+  For example:</p>
+  <p><img src="img\naimaimg\var.png" alt="pic"></p>
+  <p>In this example above,the value 10 is assigned to the <span style="color:blue">variable</span> x.</p>
+  <h3>JavaScript Variable scope:</h3>
+  <p>The scope of a variable is the region of your program in which it is defined.JavaScript variables have only two scopes.</p>
+  <h4> Global variable-</h4>
+  <p>A global variable has global scope which means is can be defined anywhere in your JavaScript code.</p>
+  <h4>Local variable-</h4>
+  <p> A local variable will be visible only within a function where it is defined.Function parameters are always local to that function.</p>
+  <p><img src="img\naimaimg\gl.png" alt="Global and Local"></p>
+  </div>
+
+
+  <div>
+<h3>Operator:</h3>
+<p>Let us take a simple expression <span style="color:blue">4+5 is equal to 9</span>.Here 4 and 5 are called  <span style="color:blue">operands</span> and '+' is called the <span style="color:blue">operator</span>.JavaScript supports the following types of operators:  </p>
+<p>          1.Arithmatic Operators</p>
+<p>          2.Comparison Operators</p>
+<p>		     3.Logical(or Relational) Operators</p>
+<p>			 4.Assignment Operators</p>
+<p>			 5.Conditional Operators</p>
+<p>Lets have a look on all operators one by one.</p>
+<h4>Arithmetic Operator:</h4>
+<p>JavaScript supports the following arithmetic operators:</P>
+<p>1.+(Addition)</p>
+<p>2.-(Subtraction)</p>
+<p>3.*(Multiplicition)</p>
+<p>4./(Divition)</p>
+<p>5.%(Modulus)</p>
+<p>6.++(Increment)</P>
+<p>7.--(Decrement)</p>
+<h4>Comparison Operators:</h4>
+<p>JavaScript supports the following Comparison operators:</P>
+<p>1.==(Equal)</P>
+<p>2.!=(Not equal)</P>
+<p>3.>(Greater than)</P>
+<p>4.<(Less than)</P>
+<p>5.>=(Greater than or Equal to)</P>
+<p>6.<=(Less than or Equal to)</P>
+<h4>JavaScript supports the following Logical operators:</h4>
+<p>1.&&(Logical AND)</P>
+<p>2.||(Logical OR)</P>
+<p>3.!(Logical NOT)</P>
+<h4>Bitwise Operators:</h4>
+<p>JavaScript supports the following Bitwise operators:</P>
+<p>1.&(Bitwise AND)</P>
+<p>2.|(Bitwise OR)</P>
+<p>3.^(Bitwise XOR)</P>
+<p>4.~(Bitwise Not)</P>
+<p>5.>>(Right Shift)</P>
+<p>6.<span><pre><<</pre></span>(Left shift)</P>
+<h4>Assignment Operators:</h4>
+<p>JavaScript supports the following Assignment operators:</P>
+<p>1.=(Simple Assignment)</P>
+<p>2.+=(Add and Assignment)</P>
+<p>3.-=(Subtract and Assignment)</P>
+<p>4.*=(Multiply and Assignment)</P>
+<p>5./=(Divide and Assignment)</P>
+<p>6.%=(Modules and Assignment)</P>
+<h4>Conditional Operators:</h4>
+<p>JavaScript supports the following Conditional operators:</P>
+<p>1.?:(Conditional)</P>
+<p>Following the example of operators:</P>
+<p><img src="img\naimaimg\op.png"></P>
+</div>
+
+
+
+div>
+<h2 id="ls">Java script loops and statement</h2>
+<h3>Javascript LOOP:</h3>
+<ol>
+  <li>FOR LOOP</li>
+  <li>WHILE LOOP</li>
+  <li>DO-WHILE LOOP</li>
+</ol>
+<h4>JavaScript FOOR LOOP:</h4>
+<P>The for loop is the most compact form of looping.It includes the following three important parts-</P>
+<ol>
+  <li>The loop initialization where we initialize our counter to a starting value. The initialization
+    statement is executed before the loop begins.</li>
+  <li>The test statement which will test if a given condition is true or not. If the condition is true,
+    then the code given inside the loop will be executed, otherwise the control will come out of
+    the loop.</li>
+  <li>The iteration statement where you can increase or decrease your counter.</li>
+</ol>
+<p>You can put all the three parts in a single line separated by semicolons.</p>
+<h4>Syntax</h4>
+<p>The syntax of for loop is JavaScript is as follows −</p>
+<p><img src="img\naimaimg\syntex.png"></p>
+<h3>EXAMPLE:</h3>
+<P><img src="img\naimaimg\for.png"></P>
+<h3>JavaScript WHILE-LOOP:</h3>
+<P>While writing a program, you may encounter a situation where you need to perform an action over
+  and over again. In such situations, you would need to write loop statements to reduce the number
+  of lines.</P>
+<P>The most basic loop in JavaScript is the while loop which would be discussed in this chapter. The
+  purpose of a while loop is to execute a statement or code block repeatedly as long as an
+  expression is true. Once the expression becomes false, the loop terminates.</P>
+<h4>Syntex:</h4>
+<p>The syntax of while loop in JavaScript is as follows −</p>
+<p><img src="img\naimaimg\sw.png"></p>
+<H4>EXAMPLE:</H4>
+<p><img src="img\naimaimg\while.png"></p>
+<h3>JavaScript DO-WHILE LOOP:</h3>
+<P>The do...while loop is similar to the while loop except that the condition check happens at the
+  end of the loop. This means that the loop will always be executed at least once, even if the
+  condition is false.</P>
+<h4>Syntext:</h4>
+<P>The syntax for do-while loop in JavaScript is as follows −</P>
+<p><img src="img\naimaimg\sd.png"></p>
+<h4>EXAMPLE:</h4>
+<P><img src="img\naimaimg\dw.png"></P>
+
+
+<div>
+<h3>JavaScript statement:</h3>
+<ol>
+  <li>if statement</li>
+  <li>if....else statement</li>
+  <li>if...else....if statement</li>
+  <li>switch case</li>
+</ol>
+<h3>JavaScript if statement:</h3>
+<p>The if statement is the fundamental control statement that allows JavaScript to make decisions
+  and execute statements conditionally.</p>
+  <h4>Syntex:</h4>
+  <p>The syntax for a basic if statement is as follows −</p>
+  <p><img src="img\naimaimg\si.png"></p>
+  <H4>EXAMPLE:</H4>
+  <P><img src="img\naimaimg\if.png"></P>
+<h3>JavaScript if...else statement:</h3>
+<p>The 'if...else' statement is the next form of control statement that allows JavaScript to execute
+  statements in a more controlled way.</p>
+  <h4>Syntex:</h4>
+  <p>Here JavaScript expression is evaluated. If the resulting value is true, the given statement(s) in the
+    ‘if’ block, are executed. If the expression is false, then the given statement(s) in the else block are
+    executed.</p>
+    <p><img src="img\naimaimg\sei.png"></p>
+    <h4>EXAMPLE:</h4>
+    <P><img src="img\naimaimg\elseif.png"></P>
+<h3>JavaScript if....else...if statement:</h3>
+<p>The if...else if... statement is an advanced form of if…else that allows JavaScript to make a
+  correct decision out of several conditions.</p>
+  <h4>Syntex:</h4>
+  <p>The syntax of an if-else-if statement is as follows −</p>
+  <p><img src="img\naimaimg\sie.png"></p>
+  <H3>EXAMPLE:</H3>
+  <p><img src="img\naimaimg\ifelse.png"></p>
+  <h3>JavaScript switch case:</h3>
+  <p>You can use multiple if...else…if statements, as in the previous chapter, to perform a multiway
+    branch. However, this is not always the best solution, especially when all of the branches depend
+    on the value of a single variable.</p>
+    <h4>Syntex:</h4>
+    <p>The objective of a switch statement is to give an expression to evaluate and several different
+      statements to execute based on the value of the expression. The interpreter checks each case
+      against the value of the expression until a match is found. If nothing matches, a default condition
+      will be used.</p>
+      <p><img src="img\naimaimg\ssc.png"></p>
+      <h3>EXAMPLE:</h3>
+      <P><img src="img\naimaimg\switch.png"></P>
+
+
+</div>
+
+
+
+<div>
+<h2 id="fun">JavaScript function</h2>
+<p>A function is a group of reusable code which can be called anywhere in your program. This
+  eliminates the need of writing the same code again and again. It helps programmers in writing
+  modular codes. Functions allow a programmer to divide a big program into a number of small and
+  manageable functions.</p>
+  <h3>Why function?</h3>
+<p>You can reuse code: Define the code once, and use it many times.</p>
+
+ <P> You can use the same code many times with different arguments, to produce different results.</p>
+<h4>Syntex</h4>
+<p><img src="img\naimaimg\fs.png"></p>
+<h4>Example</h4>
+<p><img src="img\naimaimg\function.png"></p>
+</div>
+
+
+<div>
+<h2 id="event">Javascript event</h2>
+<p>JavaScript's interaction with HTML is handled through events that occur when the user or the
+  browser manipulates a page.
+  When the page loads, it is called an event. When the user clicks a button, that click too is an event.
+  Other examples include events like pressing any key, closing a window, resizing a window, etc</p>
+  <h3>Types of event:</h3>
+  <p><img src="img\naimaimg\event.png"></p>
+<h4>Example of onclick event</h4>
+<p><img src="img\naimaimg\on.png"></p>
+</div>
+
+
+<div>
+<h2 id="string">JavaScript string</h2>
+<p>JavaScript strings are used for storing and manipulating text.</p>
+<H4>EXAMPLE of string:</H4>
+  <p><img src="img\naimaimg\string.png"></p>
+  <h4>String length example:</h4>
+  <p><img src="img\naimaimg\sl.png"></p>
+<h2 id="ec">JavaScript escape character</h2>
+<p>Because strings must be written within quotes, JavaScript will misunderstand this string:Q</p>
+<p><img src="img\naimaimg\es.png"></p>
+<P>The string will be chopped to "We are the so-called ".
+
+  The solution to avoid this problem, is to use the backslash escape character.
+  
+  The backslash (\) escape character turns special characters into string characters:</P>
+  <P><img src="img\naimaimg\B.png"></P>
+  <P>The sequence \"  inserts a double quote in a string:</P>
+  <h4>EXAMPLE of escape character:</h4>
+  <P><img src="img\naimaimg\E.png"></P>
+  <p>Six other escape sequences are valid in JavaScript:</p>
+  <P><img src="img\naimaimg\V.png"></P>
+</div>
+
+
+<div>
+<h2 id="form">javascript form</h2>
+<p>Form validation normally used to occur at the server, after the client had entered all the necessary data and then pressed the Submit button. If the data entered by a client was incorrect or was simply missing, the server would have to send all the data back to the client and request that the form be resubmitted with correct information. This was really a lengthy process which used to put a lot of burden on the server.</p>
+<p>JavaScript provides a way to validate form's data on the client's computer before sending it to the web server. Form validation generally performs two functions.</p>
+<h3>Basic validation:</h3>
+<p> First of all, the form must be checked to make sure all the mandatory fields are filled in. It would require just a loop through each field in the form and check for data.</p>
+<h3>Data formet validation:</h3>
+<p>Secondly, the data that is entered must be checked for correct form and value. Your code must include appropriate logic to test correctness of data.</p>
+<h4>Basic form validation:</h4>
+<p>First let us see how to do a basic form validation. In the above form, we are calling validate() to validate data when onsubmit event is occurring. The following code shows the implementation of this validate() function.</p>
+<p><img src="img\naimaimg\bf.png"></p>
+<h4>Data format validation:</h4>
+<p>Now we will see how we can validate our entered form data before submitting it to the web server.
+
+  The following example shows how to validate an entered email address. An email address must contain at least a ‘@’ sign and a dot (.). Also, the ‘@’ must not be the first character of the email address, and the last dot must at least be one character after the ‘@’ sign.</p>
+<P>EXAMPLE:</P>
+ <p><img src="img\naimaimg\df.png"></p>
+ <P>Example of form validation:</P>
+ <P><img src="img\naimaimg\F1.png"></P>
+</div>
+
+
+
+<div>
+<h2 id="dialog">JavaScript dialog box</h2>
+<p>JavaScript supports three important types of dialog boxes:</p>
+<ol>
+  <li>alert dialog box</li>
+  <li>confirmation dialog box</li>
+  <li>promt dialog box</li>
+</ol>
+<h3>Alert dialog box:</h3>
+<P>An alert dialog box is mostly used to give a warning message to the users. For example, if one input field requires to enter some text but the user does not provide any input, then as a part of validation, you can use an alert box to give a warning message.
+
+  Nonetheless, an alert box can still be used for friendlier messages. Alert box gives only one button "OK" to select and proceed.</P>
+  <p>Example of alert dialog box:</p>
+  <p><img src="img\naimaimg\alert.png"></p>
+  <h3>Confirmation dialog box:</h3>
+  <P>A confirmation dialog box is mostly used to take user's consent on any option. It displays a dialog box with two buttons: OK and Cancel.
+
+    If the user clicks on the OK button, the window method confirm() will return true. If the user clicks on the Cancel button, then confirm() returns false. You can use a confirmation dialog box as follows.</P>
+    <p>Example of confirmation dialog box:</p>
+    <p><img src="img\naimaimg\co.png"></p>
+    <h3>Prompt dialog box:</h3>
+    <P>Prompt Dialog Box
+
+      The prompt dialog box is very useful when you want to pop-up a text box to get user input. Thus, it enables you to interact with the user. The user needs to fill in the field and then click OK.
+      
+      This dialog box is displayed using a method called prompt() which takes two parameters: (i) a label which you want to display in the text box and (ii) a default string to display in the text box.
+      
+      This dialog box has two buttons: OK and Cancel. If the user clicks the OK button, the window method prompt() will return the entered value from the text box. If the user clicks the Cancel button, the window method prompt() returns null.</P>
+      <P><img src="img\naimaimg\pro.png"></P>
+
+  <p>If you want to more about HTML form please vist following links </p>
+  <a href="https://www.w3schools.com/js/">Visit w3schools's JAVASCRIPT form tutorial</a></br>
+  <a href="https://www.tutorialspoint.com/javascript/index.htm">Visit the tutorialspoint javascript form tutorial</a>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
