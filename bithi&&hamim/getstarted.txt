@@ -1,0 +1,6 @@
+You might think what that code was all about. Well, let's find out.
+
+1. The first line <!DOCTYPE html> is the document type declaration. It instructs the web browser that this document is an HTML5 document. It is case-insensitive.
+2.The <head> element is a container for the tags that provides information about the document, for example, <title> tag defines the title of the document.
+3.The <body> element contains the document's actual content (paragraphs, links, images, tables, and so on) that is rendered in the web browser and displayed to the user.
+You will learn about the different HTML elements in detail in the upcoming chapters. For now, just focus on the basic structure of the HTML document.
