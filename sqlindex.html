@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/crawler.png" type="image/png">
+        <title>Webtrip</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <style>
+            html,body,img{margin:0;padding:100;border:50;font-size:100%;font:inherit;vertical-align:baseline}
+html,body{min-height:100%}
+.leftcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.leftcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; solid transparent}
+.leftcolumn ul{list-style:none;padding:0;margin:0}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  padding-top: 5px;
+  padding-bottom: 0;
+  background-color:transparent;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+  margin: 10px;
+  height: 100%;
+  font-size: 20px;
+  width: 15%;
+  
+}
+
+  .main {
+
+  padding-top: 5px;
+  width: 80%;
+  font-size: 20px;
+  float: right;
+  padding: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 1px;
+}
+
+
+</style>
+<style>
+    h2{
+        color :green;
+    }
+</style>
+
+ <style>       
+.rightcolumn .segment{margin:64px 0 12px;position:relative;font-size:18px;font-weight:600;line-height:normal}
+.rightcolumn a{color:#4f4f4f;font-size:16px;line-height:26px;display:block;border-bottom:1px;border-left:2px; solid transparent}
+.rightcolumn ul{list-style:none;padding:0;margin:0}       
+</style>
+
+<div class="main_menu">
+              <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+                <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li> 
+                                <li class="nav-item"><a class="nav-link" href="exercises.html">Exercises</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li> 
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+            </div> 
+          </div>
+              </nav>
+            </div>
+
+
+<style>
+    body{margin:0;}
+ul{
+    list-style-type:none;
+  margin:0;
+  padding-top:30px;
+  padding-left:0px;
+  width:200px;
+  background-color:transparent;
+  height:100%;
+  overflow:auto;
+}
+li a{
+display:block;
+color:#000;
+padding:8px 16px;
+text-decoration : none;
+
+}
+
+li a.active{
+background-color:#4CAF50;
+color:white;
+}
+
+li a:hover:not(.active){
+background-color:#555;
+color:white;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+        
+
+<p style="text-align: center;"><img src="img\sqlimg\sqlimg.jpg" alt="SQL"></p>
+<p style="text-align: center; font-size:25px;" >SQL is a standard language for storing, manipulating and retrieving data in databases.</p>
+
+<div class="menu">
+<div class="leftcolumn" id="myNav">		
+<div class="segment"><span><strong>SQL</strong></span><strong> Basics</strong></div>
+<div class="attributes">
+    <ul>
+    <li><a href="#s_int">SQL Introduction</a></li>
+    <li><a href="#s_syn">SQL Syntax</a></li>
+    <li><a href="#s_cred">SQL Create Database</a></li>
+    <li><a href="#s_cret">SQL Create Table</a></li>
+    <li> <a href="#s_ins">SQL Insert Into</a></li>
+    <li> <a href="#s_sel">SQL Select</a></li>
+    <li> <a href="#s_whe">SQL Where</a></li>
+    <li>  <a href="#s_and">SQL AND & OR</a></li>
+    <li>  <a href="#s_in">SQL IN & Betwen</a></li>
+    <li> <a href="#s_order">SQL Order By</a></li>
+    <li> <a href="#s_up">SQL Update</a></li>
+    <li> <a href="#s_del">SQL Delete</a></li>
+
+
+</ul>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="main">
+    
+<h2 id="s_int">SQL Introduction</h2>
+
+<pre>
+  What is SQL?
+
+    SQL stands for Structured Query Language
+    SQL lets you access and manipulate databases
+    SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
+
+</pre>
+
+
+<div>
+<h2 id="s_syn">SQL Syntax</h2>
+
+<pre>SQL Statements
+
+Most of the actions you need to perform on a database are done with SQL statements.
+
+The following SQL statement selects all the records in the "Customers" table:</pre>
+<pre>
+  Example
+  SELECT * FROM Customers;
+</pre>
+<pre>
+  Keep in Mind That...
+
+    SQL keywords are NOT case sensitive: select is the same as SELECT
+</pre>
+
+<pre>
+  Some of The Most Important SQL Commands
+
+    SELECT - extracts data from a database
+    UPDATE - updates data in a database
+    DELETE - deletes data from a database
+    INSERT INTO - inserts new data into a database
+    CREATE DATABASE - creates a new database
+    ALTER DATABASE - modifies a database
+    CREATE TABLE - creates a new table
+    ALTER TABLE - modifies a table
+    DROP TABLE - deletes a table
+    CREATE INDEX - creates an index (search key)
+    DROP INDEX - deletes an index
+
+</pre>
+<h2 id="s_cred">SQL Create Database</h2>
+
+<pre>
+  The SQL CREATE DATABASE Statement
+
+  The CREATE DATABASE statement is used to create a new SQL database.
+
+  Syntax
+
+  CREATE DATABASE databasename; 
+</pre>
+
+<h2 id="s_cret">SQL Create Table</h2>
+
+<pre>
+  The SQL CREATE TABLE Statement
+
+  The CREATE TABLE statement is used to create a new table in a database.
+
+  Syntax
+
+  CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+  );
+  
+  The column parameters specify the names of the columns of the table.
+
+  The datatype parameter specifies the type of data the column can hold (e.g. varchar, integer, date, etc.).
+
+</pre>
+
+<h2 id="s_ins">SQL Insert Into</h2>
+
+<pre>
+  The SQL INSERT INTO Statement
+
+  The INSERT INTO statement is used to insert new records in a table.
+  INSERT INTO Syntax
+
+  It is possible to write the INSERT INTO statement in two ways.
+
+  The first way specifies both the column names and the values to be inserted:
+
+  INSERT INTO table_name (column1, column2, column3, ...)
+  VALUES (value1, value2, value3, ...); 
+
+  If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table. The INSERT INTO syntax would be as follows:
+
+  INSERT INTO table_name
+  VALUES (value1, value2, value3, ...);
+</pre>
+
+<h2 id="s_sel">SQL Seleect</h2>
+
+<pre>
+  The SQL SELECT Statement
+
+  The SELECT statement is used to select data from a database.
+
+  The data returned is stored in a result table, called the result-set.
+
+  SELECT Syntax
+  
+  SELECT column1, column2, ...
+  FROM table_name; 
+
+  Here, column1, column2, ... are the field names of the table you want to select data from. If you want to select all the fields available in the table, use the following syntax:
+
+  SELECT * FROM table_name;
+
+</pre>
+
+<h2 id="s_whe">SQL Where</h2>
+
+<pre>
+  The SQL WHERE Clause
+
+  The WHERE clause is used to filter records.
+
+  The WHERE clause is used to extract only those records that fulfill a specified condition.
+
+  WHERE Syntax
+  
+  SELECT column1, column2, ...
+  FROM table_name
+  WHERE condition;
+
+  Note: The WHERE clause is not only used in SELECT statement, it is also used in UPDATE, DELETE statement, etc.!
+
+</pre>
+
+<h2 id="s_and">SQL AND & OR</h2>
+
+<pre>
+  The SQL AND and OR Operators
+
+  The AND and OR operators are used to filter records based on more than one condition:
+
+    1)The AND operator displays a record if all the conditions separated by AND are TRUE.
+    2)The OR operator displays a record if any of the conditions separated by OR is TRUE.
+
+  AND Syntax
+
+  SELECT column1, column2, ...
+  FROM table_name
+  WHERE condition1 AND condition2 AND condition3 ...;
+
+  OR Syntax
+
+  SELECT column1, column2, ...
+  FROM table_name
+  WHERE condition1 OR condition2 OR condition3 ...; 
+
+</pre>
+
+<h2 id="s_in">SQL IN & BETWEEN</h2>
+
+<pre>
+  The SQL IN Operator
+
+  The IN operator allows you to specify multiple values in a WHERE clause.
+
+  The IN operator is a shorthand for multiple OR conditions.
+
+  IN Syntax
+
+  SELECT column_name(s)
+  FROM table_name
+  WHERE column_name IN (value1, value2, ...); 
+
+  or:
+
+  SELECT column_name(s)
+  FROM table_name
+  WHERE column_name IN (SELECT STATEMENT);
+
+
+  The SQL BETWEEN Operator
+
+  The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+
+  The BETWEEN operator is inclusive: begin and end values are included. 
+
+  BETWEEN Syntax
+
+  SELECT column_name(s)
+  FROM table_name
+  WHERE column_name BETWEEN value1 AND value2; 
+
+</pre>
+
+<h2 id="s_up">SQL Upadate</h2>
+
+<pre>
+  The SQL UPDATE Statement
+
+  The UPDATE statement is used to modify the existing records in a table.
+
+  UPDATE Syntax
+
+  UPDATE table_name
+  SET column1 = value1, column2 = value2, ...
+  WHERE condition; 
+
+  Note: Be careful when updating records in a table! Notice the WHERE clause in the UPDATE statement. The WHERE clause specifies which record(s) that should be updated. If you omit the WHERE clause, all records in the table will be updated!
+
+</pre>
+
+<h2 id="s_del">SQL Delete</h2>
+
+<pre>
+  The SQL DELETE Statement
+
+  The DELETE statement is used to delete existing records in a table.
+
+  DELETE Syntax
+
+  DELETE FROM table_name WHERE condition;
+</pre>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
